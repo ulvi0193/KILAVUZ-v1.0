@@ -12,6 +12,7 @@ KILAVUZ, Windows işletim sistemlerinde sistem keşfi (recon) yapmak ve elde edi
 1.Repoyu klonlayın:  
 ```bash
 git clone https://github.com/ulvi0193/KILAVUZ-v1.0
+```
 
 2.Proje dizinine geçiş yapın:  
 ```bash
