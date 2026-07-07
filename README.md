@@ -1,11 +1,8 @@
 <img width="2752" height="1536" alt="64cc49390330649742227eb54f327db7" src="https://github.com/user-attachments/assets/a0d4b6e6-3ed3-4489-a319-10164d042c93" />
 
-```diff
-+ # KILAVUZ v1.0
-! KILAVUZ, Windows işletim sistemlerinde sistem keşfi (recon) yapmak ve elde edilen verileri 
-! HTTP üzerinden maskelenmiş (Base64) şekilde bir analiz sunucusuna aktarmak için geliştirilmiş, 
-! GoLang tabanlı bir güvenlik aracıdır.
-```
+                                                                KILAVUZ v1.0
+                                                                
+KILAVUZ, Windows işletim sistemlerinde sistem keşfi (recon) yapmak ve elde edilen verileri HTTP üzerinden maskelenmiş (Base64) şekilde bir analiz sunucusuna aktarmak için geliştirilmiş, GoLang tabanlı bir güvenlik aracıdır.
 
 ## Özellikler
 * **Gizli Çalışma:** Pencere gizleme özelliği sayesinde arka planda operasyonel sessizlik sağlar.
