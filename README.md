@@ -21,7 +21,7 @@ cd KILAVUZ-v1.0
 ```
 3.Aracı Windows için derleyin:  
 ```bash
-GOOS=windows GOARCH=amd64 go build -o kilavuz.exe main.go
+GOOS=windows GOARCH=amd64 go build -o kilavuz.exe kılavuz.go
 ```
 4.Dinleyiciyi başlatın:  
 ```bash
