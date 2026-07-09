@@ -1,4 +1,3 @@
-cat << 'EOF' > kılavuz.go
 package main
 
 import (
@@ -50,4 +49,3 @@ func main() {
 	rapor := sistemBilgisiTopla()
 	veriSizdir(rapor)
 }
-EOF
